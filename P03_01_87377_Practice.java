@@ -115,7 +115,7 @@ class Solution {
     }
 }
 
-public class P03_01_87377_Practice_교점에별만들기 {
+public class P03_01_87377_Practice {
     public static void main(String[] args) {
         int[][] input  = {{2, -1, 4}, {-2, -1, 4}, {0, -1, 1}, {5, -8, -12}, {5, 8, 12}};
         Solution s = new Solution();
