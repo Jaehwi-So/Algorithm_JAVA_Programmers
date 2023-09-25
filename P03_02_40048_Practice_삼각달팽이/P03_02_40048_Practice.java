@@ -8,13 +8,10 @@ class Solution {
         }
 
         int length = (((n * n) - n) / 2) + n;
-        System.out.println(length);
         char action = 'v'; //v, h, d, 아래, 오른쪽, 왼쪽위 대각
         int x = 0;
         int y = -1;
         for(int i = 1; i <= length; i++){
-
-            System.out.println(x + " " + y + " " + action);
             if(action == 'v'){
                 y++;
                 if((y + 1 >= n || array[y+1][x] != 0)){

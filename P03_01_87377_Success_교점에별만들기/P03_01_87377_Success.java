@@ -1,4 +1,4 @@
-package P03_01_87377_Answer_교점에별만들기;
+package P03_01_87377_Success_교점에별만들기;
 
 import java.util.ArrayList;
 import java.util.Arrays;
